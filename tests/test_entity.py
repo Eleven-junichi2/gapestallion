@@ -1,8 +1,8 @@
-import gapestallion.entity
+import gapes
 
 
 def test_entity_init():
-    entity_a = gapestallion.entity.Entity()
-    entity_b = gapestallion.entity.Entity()
+    entity_a = gapes.Entity()
+    entity_b = gapes.Entity()
     assert entity_a.id == 0
     assert entity_b.id == 1
