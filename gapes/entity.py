@@ -5,3 +5,6 @@ class Entity:
         self.id = Entity.id
         Entity.id += 1
         self.components = {}
+
+    def add_component(self, component):
+        pass
