@@ -7,4 +7,4 @@ class Entity:
         self.components = {}
 
     def add_component(self, component):
-        pass
+        self.components[component.key] = component
