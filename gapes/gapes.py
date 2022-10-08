@@ -1,6 +1,6 @@
 import pygame
 
-import manager_scene
+from . import manager_scene
 
 
 pygame.init()
