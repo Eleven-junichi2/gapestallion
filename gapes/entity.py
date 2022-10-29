@@ -8,3 +8,6 @@ class Entity:
 
     def add_component(self, component):
         self.components[component.key] = component
+
+    def on_added_to_scene(self):
+        pass
